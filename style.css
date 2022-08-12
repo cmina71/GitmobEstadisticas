@@ -18,12 +18,9 @@ input{
     border: solid 0.3px black;
     border-bottom: 2px solid blue;
     width: 30%;
-    
 }
 
 .remir {
-    display: grid;
-    float: left;
     flex: 1;
     margin: 9px;
     padding: 6px 16px;
@@ -35,7 +32,7 @@ input{
 }
 
 .container{
-    flex: 2;
+    padding-left: 30%;
 }
 
 
