@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #ededed ;
+}
+#form-param{
+    padding: 20px;
+    background-color: white;
+}
+
+input{
+    margin: 6px;
+    padding: 10px;
+    border: solid 0.3px black;
+    border-bottom: 2px solid blue;
+    width: 30%;
+    
+}
+
+.remir {
+    display: grid;
+    float: left;
+    flex: 1;
+    margin: 9px;
+    padding: 6px 16px;
+    border-radius: 0.25rem;
+    background-color: #3770db;
+    color: #fff;
+    transition: background-color 0.15s ease-in-out, top 0.15s ease-in-out,
+      left 0.15s ease-in-out;
+}
+
+.container{
+    flex: 2;
+}
+
+
+.buttons:first-child{
+    background-color: #48e;
+    background-color: rgb(12, 159, 196);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.movio{
+    animation: animar 0.25s steps(2) infinite;
+}
+
+@keyframes animar{
+    from{
+        background-position-x: 84px;
+    }
+    to{
+        background-position-x: -22px;
+    }
+}
